@@ -1,9 +1,8 @@
-import React, { useRef, useEffect, useState, useCallback } from 'react';
+import React, { useRef, useEffect } from 'react';
 
 const WIDTH = 500;
 const HEIGHT = 500;
-const annotationWidth = 100;
-const annotationHeight = 100;
+
 const Canvas = ({ imageSrc, redraw, roi }) => {
 	const canvasRef = useRef(null);
 

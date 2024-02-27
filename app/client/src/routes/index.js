@@ -46,22 +46,6 @@ const Routes = (props) => {
 		<div>
 			<Router history={history}>
 				<div className={classes.root}>
-					<Drawer
-						variant="permanent"
-						classes={{
-							paper : classes.drawerPaper,
-						}}
-					>
-						{/* <div className={classes.toolbar} /> */}
-						<List>
-							<ListItem button component={Link} to="/">
-								<ListItemIcon>
-									<InboxIcon />
-								</ListItemIcon>
-								<ListItemText primary="Home" />
-							</ListItem>
-						</List>
-					</Drawer>
 					<main className={classes.content}>
 						{/* <div className={classes.toolbar} /> */}
 						<Route exact path="/" component={Home} />
