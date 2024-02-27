@@ -5,7 +5,7 @@ RUN apk add --no-cache curl
 WORKDIR /app
 COPY .  /app
 
-RUN yarn install
+RUN yarn install --ignore-engines
 
 EXPOSE 3000
 
