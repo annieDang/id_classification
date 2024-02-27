@@ -1,0 +1,38 @@
+{
+  "name": "react-material",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.0.0",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.4",
+    "@mui/x-data-grid": "^5.10.0",
+    "axios": "^0.27.2",
+    "immutability-helper": "^3.1.1",
+    "mono-stacked-bar": "^0.0.4",
+    "react": "^16.3.2",
+    "react-addons-update": "^15.6.3",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "nodemon start"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "main": "src/index.js",
+  "license": "MIT"
+}

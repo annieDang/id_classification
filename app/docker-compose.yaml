@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+  server:
+    container_name: server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "6789:6789"
+    networks:
+      - app-network
+
+  client:
+    container_name: client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+
+    volumes:
+      - ./client:/app
+      - node_modules:/client/node_modules
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  node_modules:

@@ -1,0 +1,4 @@
+{
+  "EfficientNet": "files/passport_classifier_EfficientNetB0_0.keras",
+  "BaselineCNN": "files/id_classifier_simple_cnn0.keras"
+}

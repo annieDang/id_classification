@@ -1,0 +1,24 @@
+# Folders
+.git
+.github
+.vscode
+.idea
+*/coverage
+e2e
+test
+infra
+__pycache
+
+# Files
+.gitignore
+.env*
+!.env.example
+*.md
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.dockerignore
+Dockerfile
+Makefile
+docker-compose.yml
