@@ -3,8 +3,7 @@
 ## Description
 
 A simple web application that identifies documents uploaded by the user, detects regions of interest (ROIs), and classifies the nationality of the document.
-![Screenshot](doc/roi.png)
-![Vid](doc/test.mov)
+![Screenshot](doc/app.png)
 
 ## Structure
 
